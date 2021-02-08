@@ -1,0 +1,10 @@
+<svg width='312' viewBox='-122,-40 312,160' style='background:none' xmlns='http://www.w3.org/2000/svg'>
+	<rect x='-122' y='-40' width='312' height='160' rx='20' ry='20' fill='darkorange' />
+	<text text-anchor='middle' transform='translate(-90,40) rotate(90)' font-size='64' font-family='Arial' fill='orange' >M5</text>
+	<path stroke-width='3' stroke='black' fill='none' d='M-90,-10 h50a10,10 0 0 1 10,10v90a10,10 0 0 1 -10,10h-50' />
+	<clipPath id='lcdclip'><rect x='0' y='0' width='160' height='80' /></clipPath>
+	<rect x='0' y='0' width='160' height='80' fill='black' /><g id='Lcd' fill='white' clip-path='url(#lcdclip)'></g>
+	<text x='-45' y= '40' onClick="document.getElementById('Console').innerHTML+='M5.BtnA.wasPressed()\n';">A</text>
+	<text x= '80' y='120' onClick="document.getElementById('Console').innerHTML+='M5.BtnB.wasPressed()\n';">B</text>
+	<circle id='M5_LED' cx='170' cy='-15' r='15' stroke='orange' fill='none' />
+</svg>

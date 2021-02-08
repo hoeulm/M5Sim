@@ -1,0 +1,10 @@
+<svg width='412' viewBox='-46,-96 412,412' xmlns='http://www.w3.org/2000/svg' >
+<rect x='-41' y='-91' rx='21' ry='21' width='402' height='402' fill='#202020' stroke='#808080' stroke-width='11' />
+<clipPath id='lcdclip'><rect x='0' y='0' width='320' height='240' /></clipPath>
+<rect x='0' y='0' width='320' height='240' fill='black' ><title>M5.Lcd 320x240 Pixel 64kFarben</title></rect>
+<g id='Lcd' fill='white' stroke='white' clip-path='url(#lcdclip)'></g>
+<rect x= '30' y='255' width='64' height='32' rx='5' fill='silver' onClick="document.getElementById('Console').innerHTML+='M5.BtnA.wasPressed()\n';"><title>M5.BtnA</title></rect>
+<rect x='130' y='255' width='64' height='32' rx='5' fill='silver' onClick="document.getElementById('Console').innerHTML+='M5.BtnB.wasPressed()\n';"><title>M5.BtnB</title></rect>
+<rect x='230' y='255' width='64' height='32' rx='5' fill='silver' onClick="document.getElementById('Console').innerHTML+='M5.BtnC.wasPressed()\n';"><title>M5.BtnC</title></rect>
+</svg>
+
