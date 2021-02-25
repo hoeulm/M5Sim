@@ -6,5 +6,5 @@ Simulator for M5Stack Devices
   <li>M5 Stick C Plus</li>
 </ul>
 
-Live under https://m5msim.8266.de
+Live under https://m5sim.8266.de
 
